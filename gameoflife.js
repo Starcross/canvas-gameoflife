@@ -1,5 +1,5 @@
 /** Conway's Game of Life - HTML5 Canvas and Javascript Demo
-    Alex Luton - http://starcross.eu
+    Alex Luton - https://starcross.dev
 */
 
 
