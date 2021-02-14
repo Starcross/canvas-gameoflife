@@ -1,4 +1,8 @@
-brushes = { 
+/** Brush Data to accompany Conway's Game of Life HTML5 Canvas demo
+    starcross.dev
+ */
+
+const brushes = {
     'Glider' : 
     [[0,1,0],
      [0,0,1],

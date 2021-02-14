@@ -31,20 +31,31 @@
 <body>
 
     <div id="overlay">
-        <h2>
         <h2>Game of Life</h2>
         <div id="controls">
+
             <label for="speed">Speed</label>
-            <input id="speed" type="range" min="1" max="20" value="10">
+			<input id="speed" type="range" min="1" max="20" value="5">
+
+			<input id="play" type="button" value="Pause">
+	        <input id="blank" type="button" value="Blank">
             <input id="randomise" type="button" value="Randomise">
+
+			<label for="wrap">Wrap</label>
+			<input id="wrap" type="checkbox" checked>
+
+			<label for="brush">Brush</label>
+			<select id="brush"></select>
+
         </div>
-</h2>
+
     </div>
 
     <div style="background-color: black">
     <div id="lifecontainer">
         <canvas id="gameoflife"></canvas>
     </div>
+    <script type="text/javascript" src="brushdata.js"></script>
     <script type="text/javascript" src="gameoflife.js"></script>
     </div>
 
